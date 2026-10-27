@@ -59,6 +59,10 @@ function addTask(e) {
   renderTasks();
 }
 
+document.getElementById('todayDate').textContent = new Intl.DateTimeFormat('ko-KR', {
+  year: 'numeric', month: 'long', day: 'numeric', weekday: 'long',
+}).format(new Date());
+
 document.getElementById('taskForm').addEventListener('submit', addTask);
 loadTasks();
 renderTasks();
