@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>문서 자동 분류기</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>문서 자동 분류기</h1>
+    <p class="sub">제목 · 내용의 키워드로 업무별 폴더에 나눔 (교육용 가상 데이터)</p>
+  </header>
+
+  <section class="card">
+    <h2>문서 추가</h2>
+    <form id="docForm">
+      <input id="titleInput" placeholder="문서 제목" required>
+      <textarea id="bodyInput" placeholder="내용 (선택)" rows="2"></textarea>
+      <button>분류하기</button>
+    </form>
+    <p id="msgBox"></p>
+  </section>
+
+  <div id="folderList"></div>
+
+  <script src="logic.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

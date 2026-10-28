@@ -1,0 +1,13 @@
+body { font-family: "Malgun Gothic", sans-serif; max-width: 920px; margin: 0 auto; padding: 16px; background: #f4f7f2; color: #222; }
+header h1 { margin: 8px 0 0; color: #2f6b22; }
+.sub { margin: 4px 0 16px; color: #666; }
+.card { background: #fff; border: 1px solid #d5e3c9; border-radius: 8px; padding: 14px 16px; margin-bottom: 14px; }
+h2 { font-size: 18px; margin: 0 0 10px; }
+form { display: flex; flex-direction: column; gap: 6px; }
+input, textarea, button { padding: 6px 8px; font-size: 14px; font-family: inherit; }
+button { align-self: flex-start; background: #2f6b22; color: #fff; border: 0; border-radius: 4px; cursor: pointer; }
+ul { margin: 0; padding-left: 18px; }
+li { margin: 4px 0; font-size: 14px; }
+li .body { margin-left: 8px; color: #666; }
+.none { color: #888; list-style: none; margin-left: -18px; }
+#msgBox { color: #2f6b22; min-height: 1em; }
